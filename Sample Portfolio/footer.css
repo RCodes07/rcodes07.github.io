@@ -1,0 +1,60 @@
+.box .footer-section{
+    border: 1px solid rgb(0,0,0,0.1);
+    margin: 0;
+}   
+.box .footer-section .logo-objective{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+}
+.box .footer-section .logo-objective .logo-container{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.box .footer-section .logo-objective .objective-container{
+    margin: 10px 10px;
+    justify-content: center;
+}
+.box .footer-section .logo-objective .objective-container p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.box .footer-section .logo-objective .objective-container p span{
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+}
+.box .footer-section .contact-container{
+    display: grid;
+    justify-content: left;
+}
+.box .footer-section .contact-container p{
+    font-weight: 800;
+    margin: 0;
+    margin-left: 10px;
+}
+.box .footer-section .contact-container ul{
+    margin-top: 0;
+    display: grid;
+    text-align: left;
+}
+.box .footer-section .contact-container ul li{
+    color: black;
+}
+.box .footer-section .contact-container ul li i{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.box .footer-section .contact-container ul li i span{
+    font-weight: 100;
+    margin-left: 5px;
+}
+.box .reserved{
+    margin: 0;
+    margin-top: 20px;
+}
+.box .reserved h6{
+    font-style: italic;
+    color: black;
+}
